@@ -1,0 +1,83 @@
+body {
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
+  text-align: left;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.container {
+  margin: 10% auto;
+}
+
+/* card section */
+.sedan_card {
+  background-color: hsl(31, 77%, 52%);
+  padding: 5px 25px;
+  margin-bottom: 0;
+}
+
+.suv_card {
+  background-color: hsl(184, 100%, 22%);
+  padding: 5px 25px;
+  margin-bottom: 0;
+}
+
+.luxury_card {
+  background-color: hsl(179, 100%, 13%);
+  padding: 5px 25px;
+  margin-bottom: 0;
+}
+
+/* card content section */
+.heading {
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 2rem;
+  padding: 10% 0;
+}
+
+.paragraph {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 30%;
+}
+
+/* Button section */
+.sedan-button {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  border: none;
+  border-radius: 16px;
+  margin-bottom: 5px;
+}
+
+.suv-button {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+  border: none;
+  border-radius: 16px;
+}
+
+.luxury-button {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+  border: none;
+  border-radius: 16px;
+}
+
+.sedan-button:hover {
+  background-color: hsl(31, 77%, 52%);
+  border: 1px solid #ffff;
+  color: #ffff;
+}
+
+.suv-button:hover {
+  background-color: hsl(184, 100%, 22%);
+  border: 1px solid #ffff;
+  color: #ffff;
+}
+
+.luxury-button:hover {
+  background-color: hsl(179, 100%, 13%);
+  border: 1px solid #ffff;
+  color: #ffff;
+}
